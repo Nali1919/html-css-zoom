@@ -10,6 +10,12 @@
     background-color: black;
 }
 
+.header {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 25px;
+}
+
 header {
     height: 50px;
 }
