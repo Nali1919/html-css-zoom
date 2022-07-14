@@ -17,6 +17,7 @@ header {
 .immagini {
     margin: 5px 45px;
     display: flex;
+    width: calc(100% / 7 - 50px);
 
 }
 
@@ -24,6 +25,7 @@ img {
     width: 180px;
     height: 128px;
     padding: 3px;
+    position: relative;
 }
 
 .flex {
@@ -36,5 +38,28 @@ img {
 
 footer {
     background-color: #222222;
-    height: 75px;
+    flex-basis: 70px;
+}
+
+i {
+    color: white;
+}
+
+.container {
+    padding: 25px;
+    column-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pincopallo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
 }
