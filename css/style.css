@@ -10,12 +10,17 @@
 
 }
 
+
 body {
     background-color: black;
 }
 
 img {
     width: 100%;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .space-view {
@@ -79,5 +84,21 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+    padding: 20px;
 
+}
+
+.end {
+    padding: 0 10px;
+    color: red;
+    height: 100%;
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
 }
